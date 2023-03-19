@@ -1,38 +1,50 @@
 .App {
-  text-align: center;
+  height: 2300px;
+  background-image: url(../public/jupiter.jpg);
+  background-size: cover;
+  background-repeat:no-repeat ;
+
+
+}
+.gambarCarousel {
+  width:500px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fotoCid {
+  width:350px;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Navbar {
+  background-image: url(../public/universe.jpg);
+  background-size: cover;
+  background-repeat:no-repeat ;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer{
+margin-top: 1230px;
+  
 }
+
+@media only screen and (max-width: 768px) {
+  .App{
+    background-size: contain;
+    height:1630px;
+    background-repeat:repeat ;
+  }
+  .gambarCarousel {
+    width:300px;
+  }
+  .footer{
+    margin-top:290px;
+}
+.fotoCid {
+  width: 70%;
+  max-width: 300px;
+  margin-left: 50px;
+}
+}
+
+
