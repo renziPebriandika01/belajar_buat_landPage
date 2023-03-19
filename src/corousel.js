@@ -11,7 +11,9 @@ const Corousel=()=> {
     };
   return (
   <>
-
+<div className="border border-dark border-2 opacity-5 text-light text-center fw-bold mb-5">
+  <h1 >About</h1>
+</div>
     <Carousel activeIndex={index} onSelect={handleSelect} >
       <Carousel.Item > 
         <img 
@@ -48,6 +50,7 @@ const Corousel=()=> {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    
     </>
   );
 }

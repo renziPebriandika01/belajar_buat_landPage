@@ -1,10 +1,13 @@
 .App {
-  height: 2300px;
+  height: 2100px;
   background-image: url(../public/jupiter.jpg);
   background-size: cover;
   background-repeat:no-repeat ;
 
 
+}
+.profil {
+  margin-top:100px;
 }
 .gambarCarousel {
   width:500px;
@@ -24,14 +27,20 @@
   color: #61dafb;
 }
 .footer{
-margin-top: 1230px;
+margin-top: 500px;
   
+}
+.corousel {
+  margin-top: 300px;
+}
+.jumbotron {
+  margin-top: 100px;
 }
 
 @media only screen and (max-width: 768px) {
   .App{
     background-size: contain;
-    height:1630px;
+    height:2030px;
     background-repeat:repeat ;
   }
   .gambarCarousel {
@@ -40,11 +49,14 @@ margin-top: 1230px;
   .footer{
     margin-top:290px;
 }
-.fotoCid {
+  .fotoCid {
   width: 70%;
   max-width: 300px;
   margin-left: 50px;
+}.corousel {
+  margin-top: 300px;
 }
+
 }
 
 
